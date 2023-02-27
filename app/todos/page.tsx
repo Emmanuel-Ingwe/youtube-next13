@@ -1,11 +1,13 @@
 import React from "react";
+import TodosList from "./TodosList";
 
-const Todo = () => {
+const Todos = () => {
 	return (
 		<div>
-			<p>Todos</p>
+			{/* @ts-ignorre */}
+			<TodosList />
 		</div>
 	);
 };
 
-export default Todo;
+export default Todos;
