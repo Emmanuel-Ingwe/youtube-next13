@@ -42,7 +42,7 @@ export async function generateStaticParams() {
 
 	const trimmedTodos = todos.splice(0, 10);
 
-	return trimmedTodos.map((todo) => ({
+	return todos.map((todo) => ({
 		todoId: todo.id.toString(),
 	}));
 }
