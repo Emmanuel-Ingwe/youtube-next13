@@ -38,9 +38,11 @@ export default TodoPage;
 
 export async function generateStaticParams() {
 	const res = await fetch("https://jsonplaceholder.typicode.com/todos/");
-	const todos = await res.json();
+	const todos: Todo[] = await res.json();
 
-	return todos.map((todo) => ({
+	const trimmedTodos = todos.splice(0, 10);
+
+	return trimmedTodos.map((todo) => ({
 		todoId: todo.id.toString(),
 	}));
 }
