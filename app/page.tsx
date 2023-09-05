@@ -31,7 +31,7 @@ function Item({ name, isPacked }) {
 		  />
 		  <Item 
 			isPacked={true} 
-			name="Helmet with a golden leaf" 
+			name="Helmet with a golden sidde" 
 		  />
 		  <Item 
 			isPacked={false} 
