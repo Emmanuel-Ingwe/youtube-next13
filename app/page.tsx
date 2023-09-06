@@ -17,13 +17,59 @@ function Item({ name, isPacked }) {
 	const listItems = people.map(person =>
 	  <li>{person}</li>
 	);
-	return <ul>{listItems}</ul>;
+	return <ul>{listItems}</ul>
+	<p id="para1">Me too!</p>;
   }
   
   export default function PackingList() {
 	return (
 	  <section>
-		<h1>Sally Ride's Packing List</h1>
+		<h1 id="" className="">Sally Ride's Packing List</h1>
+		<p id="para1">Me too!</p>
+
+		<a href=""></a>
+		<h1></h1>
+		<p></p>
+
+		<a href="facebook.com"></a>
+
+		<img src="" id="" alt="" />
+
+		<form action="">
+			<input type="text" />
+			<label htmlFor=""></label>
+		</form>
+
+		<a href=""></a> <a href=""></a>
+
+		<ul>
+			<li>food</li>
+			<li>clothe</li>
+			<li>clothe</li>
+			<li>clothe</li>
+		</ul>
+
+		<ul>
+			<li></li>
+		</ul>
+
+		<a href=""></a>
+
+		<a href=""></a>
+
+		<table>
+			<tr>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+		</table>
+
+
+
+
 		<ul>
 		  <Item 
 			isPacked={true} 
