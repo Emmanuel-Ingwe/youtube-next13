@@ -19,8 +19,8 @@ function Item({ name, isPacked }) {
 	const listItems = people.map(person =>
 	  <li>{person}</li>
 	);
-	return <ul>{listItems}</ul>
-	<p id="para1">Me too!</p>;
+	// return <ul>{listItems}</ul>
+	// <p id="para1">Me too!</p>;
   }
   
   export default function PackingList() {
