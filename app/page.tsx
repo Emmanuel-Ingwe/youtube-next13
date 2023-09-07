@@ -5,6 +5,8 @@ function Item({ name, isPacked }) {
 	return <li className="item">{name}</li>;
   }
 
+  <Item name={"33"} isPacked={}></Item>
+
   const people = [
 	'Creola Katherine Johnson: mathematician',
 	'Mario José Molina-Pasquel Henríquez: chemist',
