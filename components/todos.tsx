@@ -16,7 +16,7 @@ function TodoList() {
   // Rest of your component logic...
 }
 
-function Counter() {
+function Counter(reducer) {
   const [state, dispatch] = useReducer(reducer, { age: 42 });
 
   return (
