@@ -16,6 +16,21 @@ function TodoList() {
   // Rest of your component logic...
 }
 
+function Counter() {
+  const [state, dispatch] = useReducer(reducer, { age: 42 });
+
+  return (
+    <>
+      <button onClick={() => {
+        dispatch({ type: 'incremented_age' })
+      }}>
+        Increment age
+      </button>
+      <p>Hello! You are {state.age}.</p>
+    </>
+  );
+}
+
 export default TodoList;
 // This code will achieve the same result as the previous example. It's a matter of preference and readability. Using the function as in the previous example ensures that the initialization logic is only executed once when the component is initially rendered. If you use useState(createTodos()), the createTodos() function is called immediately when the component is initialized. Both approaches are valid depending on your specific use case.
 
