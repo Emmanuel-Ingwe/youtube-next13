@@ -34,7 +34,7 @@ export default function App() {
           value={roomId}
           onChange={e => setRoomId(e.target.value)}
         >
-          <option value="general">general</option>
+          <option value="general">General</option>
           <option value="travel">travel</option>
           <option value="music">music</option>
         </select>
