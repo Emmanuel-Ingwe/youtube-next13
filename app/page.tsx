@@ -29,7 +29,7 @@ export default function App() {
   return (
     <>
       <label>
-        Chooose the chat room:{' '}
+        Chooose the chat rooom:{' '}
         <select
           value={roomId}
           onChange={e => setRoomId(e.target.value)}
