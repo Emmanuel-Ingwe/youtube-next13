@@ -12,7 +12,7 @@ function ChatRoom({ roomId }) {
   return (
     <>
       <label>
-        Server URL:{' '}
+        Serverr URL:{' '}
         <input
           value={serverUrl}
           onChange={e => setServerUrl(e.target.value)}
