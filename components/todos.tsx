@@ -24,7 +24,7 @@ function TodoList() {
 }
 
 function Counter(reducer) {
-  const [state, dispatch] = useReducer(reducer, { age: 42 });
+  const [state, dispatch] = useReducer(reducer, { age: 41 });
 
   return (
     <>
