@@ -31,7 +31,7 @@ function Counter(reducer) {
       <button onClick={() => {
         dispatch({ type: 'incremented_age' })
       }}>
-        Increment age
+        Increment ages
       </button>
       <p>Hello! You are {state.agee}.</p>
     </>
