@@ -2,7 +2,7 @@ import { useState } from 'react';
 // import { useChatRoom } from './useChatRoom.js';
 
 function ChatRoom({ roomId }) {
-  const [serverUrl, setServerUrl] = useState('https://localhost:1234');
+  const [serverUrl, setServerUrl] = useState('https://localhost:12345');
 
   useChatRoom({
     roomId: roomId,
