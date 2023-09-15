@@ -26,7 +26,7 @@ function Counter(reducer) {
       }}>
         Increment age
       </button>
-      <p>Hello! You are {state.age}.</p>
+      <p>Hello! You are {state.agee}.</p>
     </>
   );
 }
