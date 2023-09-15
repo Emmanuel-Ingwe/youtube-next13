@@ -1,13 +1,20 @@
 import React, { useState, useReducer } from 'react';
+import { text } from 'stream/consumers';
 
 function createTodos() {
+
   // Some logic to generate initial todo items
   return [
-    { id: 1, text: 'Buy groceries', completed: false },
+    { id: 1, text: '', completed: false },
     { id: 2, text: 'Walk the dog', completed: true },
     // ... more todo items
   ];
 }
+
+<input type="text"
+  value=""
+  id='id'
+ />
 
 function TodoList() {
   // Initialize the todos state with the result of createTodos() immediately
