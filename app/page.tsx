@@ -1,9 +1,11 @@
-"use client"
-
 import { useState } from 'react';
+// import { useChatRoom } from './useChatRoom.js';
 
-const todo = () => {
+function ChatRoom({ roomId }) {
+
 	return (
-		<h1>HI there</h1>
-	)
+		<>
+			<h1>Welcome to the {roomId} room!</h1>
+		</>
+	);
 }
