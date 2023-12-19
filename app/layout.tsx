@@ -11,6 +11,7 @@ export default function RootLayout({
 			<head></head>
 			<body>
 				<Header />
+				<h2>wwwwwwwwwww</h2>
 				{children}
 			</body>
 		</html>
